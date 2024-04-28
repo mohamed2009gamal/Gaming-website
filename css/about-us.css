@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #2d17f8, #00ff11);
+}
+
+
+.logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px 10px;
+}
+
+.logo:hover {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 10);
+    border-radius: 10px;
+
+}
+
+
+.header-links a {
+    position: relative;
+    bottom: 30px;
+    left: 1100px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-left: auto;
+
+}
+
+.header-links a:hover {
+    background-color: #2386fe;
+}
+
+
+.header-links button {
+    position: relative;
+    bottom: 30px;
+    left: 1100px;
+    display: inline;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.header-links button:hover {
+    background-color: #028c9e;
+}
+
+
+.header h1 {
+    position: absolute;
+    bottom: 560px;
+    left: 650px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header h2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 1050px;
+}
+
+
+
+
+.footer img {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 860px;
+    left: 900px;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 10);
+    border-radius: 20px;
+
+}
+
+
+.links button.create-account {
+    position: absolute;
+    top: 1000px;
+    left: 290px;
+    background-color: #EE6268;
+    color: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.links a.about-us {
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+}
+
+.links button {
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+    background-color: #EE6268;
+    color: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.links a {
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+
+.links button.create-account:hover {
+    position: absolute;
+    top: 1000px;
+    left: 290px;
+    background-color: #f2858c;
+    color: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.links a.about-us:hover {
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+    background-color: #2386fe;
+}
+
+.links button:hover {
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+    background-color: #f2858c;
+    color: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.links a:hover {
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #2386fe;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    position: relative;
+    top: 750px;
+    left: 220px;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    width: 15px;
+    height: 35px;
+    line-height: 40px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    outline-color: rgb(255, 255, 255);
+    outline-style: auto;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    color: #002aff;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+
+.footer p.copyright {
+    position: absolute;
+    top: 1410px;
+    left: 650px;
+    cursor: pointer;
+    font-size: 40px;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.footer p.one {
+    position: absolute;
+    top: 1300px;
+    left: 650px;
+    cursor: pointer;
+    font-size: 40px;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+    font-size: 15px;
+    display: inline;
+
+}

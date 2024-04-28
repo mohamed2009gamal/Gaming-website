@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in to Gaming Website</title>
+  <link rel="stylesheet" href="css/log-in.css">
+  <!--<script src="js/log-in.js"></script>-->
+  <link rel="icon" href="images\logos\ws-logo.png" type="image/png">
+  <link href='https://onpkg.com/boxicons@2.1.4/css/box icons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="wrapper">
+
+    <form action="">
+      <h1>Login</h1>
+      <div class="input-box">
+        <label>
+          <input type="text" placeholder="Username" required>
+        </label>
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-box">
+        <label>
+          <input type="password" placeholder="Password" required>
+        </label>
+        <i class='bx bxs-lock-alt' ></i>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox">Remember Me</label>
+        <a href="#">Forgot Password</a>
+      </div>
+      <button type="submit" class="btn">Login</button>
+      <div class="register-link">
+        <p>Don't have an account? <a href="new-account.html">Register</a></p>
+      </div>
+      <a class="home" href="main-menu.html">Home</a>
+      <a class="contact-us" href="contact-us.html">Contact Us</a>
+      <a class="about-us" href="about-us.html">About Us</a>
+    </form>
+  </div>
+</body>
+</html>
+
+<?php
+
+  extract($_REQEUST);
+  $file-fopen("form-save.txt", "w");
+
+  fwrite($file, "name : ");
+  fwrite($file, $username . "\n");
+  fwrite($file, "Email : ");
+  fwrite($file, $email . "\n");
+  fwrite($file, "Password : ");
+  fwrite($file, $password . "\n");
+
+  fclose($);
+
+
+?>

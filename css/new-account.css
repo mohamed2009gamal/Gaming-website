@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background: url(../images/bgs/bg1.jpg) no-repeat center;
+
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container {
+    width: 900px;
+    padding: 20px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,10);
+    backdrop-filter: blur(25px);
+    background: transparent;
+    border-radius: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff0202;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    position: relative;
+    top: 30px;
+    left: 370px;
+    width: 100px;
+    padding: 10px;
+    background-color: #0070ff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+
+    background-color: #07ffba;
+    color: #000000;
+}
+
+.group input{
+    width: 47%;
+    height: 50px;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+}
+.group input:hover {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.group input::placeholder {
+    color: #3a3a3a;
+}
+
+
+.group_two label{
+    position: relative;
+    bottom: 95px;
+    left: 410px;
+    width: 40%;
+    height: 100%;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+    outline: none;
+}
+.group_two input{
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    bottom: 270px;
+    left: 450px;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+}
+.group_two input:hover {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.group_two input::placeholder {
+    color: #3a3a3a;
+}
+
+
+.group_tree label{
+    position: relative;
+    bottom: 70px;
+    right: 20px;
+    width: 40%;
+    height: 100%;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+    outline: none;
+}
+.group_tree input{
+    width: 93%;
+    height: 50px;
+    position: absolute;
+    bottom: 185px;
+    left: 20px;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+}
+.group_tree input:hover {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.group_tree input::placeholder {
+    color: #3a3a3a;
+}
+
+
+
+.group_four label{
+    position: relative;
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+}
+.group_four input{
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    outline: none;
+}
+.group_four input:hover {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.group_four input::placeholder {
+    color: #3a3a3a;
+}
+
+
+
+.group_five label{
+    position: relative;
+    bottom: 55px;
+    left: 430px;
+    width: 40%;
+    height: 100%;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+}
+.group_five input{
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 450px;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 15px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+}
+.group_five input:hover {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.group_five input::placeholder {
+    color: #3a3a3a;
+}
+
+
+
+a.home {
+    position: relative;
+    bottom: 530px;
+    left: 690px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+a.home:hover {
+    opacity: 0.7;
+}
+
+a.contact-us {
+    position: relative;
+    bottom: 530px;
+    left: 730px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+a.contact-us:hover {
+    opacity: 0.7;
+}
+
+a.about-us {
+    position: relative;
+    bottom: 530px;
+    left: 790px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+a.about-us:hover {
+    opacity: 0.7;
+}
